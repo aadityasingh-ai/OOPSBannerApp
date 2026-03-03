@@ -1,23 +1,10 @@
-/**
- * OOPSBannerApp UC8 – Use Map for Character Patterns and Render via Function
- *
- * This implementation uses HashMap from the Collections Framework
- * to store and retrieve ASCII character patterns efficiently.
- *
- * @author Developer
- * @version 8.0
- */
+
 
 import java.util.HashMap;
 
 public class UC8 {
 
-    /**
-     * Creates and initializes a HashMap containing
-     * ASCII art patterns for supported characters.
-     *
-     * @return HashMap<Character, String[]> storing character patterns
-     */
+
     public static HashMap<Character, String[]> createCharacterMap() {
 
         HashMap<Character, String[]> charMap = new HashMap<>();
@@ -65,12 +52,7 @@ public class UC8 {
         return charMap;
     }
 
-    /**
-     * Displays the banner message using the provided character map.
-     *
-     * @param message String to display as banner
-     * @param charMap HashMap storing character patterns
-     */
+
     public static void displayBanner(String message,
                                      HashMap<Character, String[]> charMap) {
 
@@ -89,9 +71,7 @@ public class UC8 {
         }
     }
 
-    /**
-     * Main Method – Entry point
-     */
+ 
     public static void main(String[] args) {
 
         HashMap<Character, String[]> charMap =
